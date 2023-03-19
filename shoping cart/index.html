@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css ">
+</head>
+<body>
+
+<h1>My shoping Cart</h1>    
+    
+
+<div class="container"><br>
+
+    <div class="card_container">
+     <div class="card_item"> 
+        <img src="product-1.png" alt=""> <p>Iphone 11</p>
+        <div class="plus">
+            <button id="phone_minus"><i class="fa-solid fa-minus"></i></button><input value="0" type="number" id="phone_input"><button id="phone_plus"><i class="fa-solid fa-plus"></i></button>
+         </div>
+         <h2 id="Phone_price">0</h2>
+     </div>
+     <div class="card_item"> 
+        <img src="product-2.png" alt=""> <p>Iphone 11 Case</p>
+        <div class="plus">
+            <button id="case_minus"><i class="fa-solid fa-minus"></i></button><input type="number" value="0" id="case_input"><button id="case_plus"><i class="fa-solid fa-plus"></i></button>
+         </div>
+         <h2 id="case_price">0</h2>
+     </div>
+     <div class="calculation ">
+      <span>  <p>subtotal:</p ><p class="text" id="sutotal"> 0</p></span>
+      <span>  <p>Tax:</p><p class="text" id="tax"> 0</p ></span>
+      <span>  <p>Grand Total:</p><p class="text" id="grand_total"> 0</p></span>
+     </div>
+    <div> <button class="CHechout">CHechout</button></div>
+    </div>
+  
+</div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="shopingcart.js"></script>
+</body>
+</html>
